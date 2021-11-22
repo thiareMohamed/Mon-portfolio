@@ -5,11 +5,19 @@
 }
 
 /* header */
+nav
+{
+    position: fixed;
+}
 ul li
 {
     font-weight: bold;
 }
-ul li a span
+ul li a .accueil
+{
+    color: #55B3A6;
+}
+ul li a span:hover
 {
     color: #55B3A6;
 }
