@@ -1,0 +1,28 @@
+/* ------------A propos------------- */
+
+.titre-a-propos
+{
+    color: #55B3A6;
+    font-weight: bold;
+    font-size: 35px;
+}
+.text-a-propos
+{
+    font-size: 18px;
+}
+.cadre-text
+{
+    border-top: #55B3A6 solid 5px;
+    width: 90%;
+    position: center;
+    margin-left: 5%;
+}
+.cadre
+{
+    border: solid #55B3A6 3px;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.137);
+}
