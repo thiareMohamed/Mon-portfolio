@@ -4,98 +4,62 @@
     font-family: 'Sen', sans-serif;
 }
 
-/* -------header-------- */
+/* -------Contact-------- */
 
-nav
-{
-    position: fixed;
-}
-ul li
+.titre-contact
 {
     font-weight: bold;
-}
-ul li a .accueil
-{
     color: #55B3A6;
 }
-ul li a span:hover
+.titre-contact2
 {
-    color: #55B3A6;
+    border-bottom: 5px solid #55B3A6;
 }
-
-/* ------ accueil------- */
-
-.orange
+.form-input
 {
-    background-color: #F13B23;
-    width: 250px;
-    height: 250px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    margin-left: 20px;
-    position: relative;
-    z-index: 2;
+    width: 90%;
+    height: 40px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 4%;
+    border-radius: 10px;
+    border: 2px solid #55B3A6;
+    padding-left: 10px;
 }
-.jaune
+.form-msg
 {
-    background-color: #FFDC16;
-    width: 250px;
-    height: 250px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    position: relative;
-    margin-right: 20px;
-    margin-top: -250px;
-    position: relative;
-    z-index: 1;
-    float: right;
+    height: 150px;
 }
-.vert
+form
 {
     background-color: #55B3A6;
-    width: 220px;
-    height: 280px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    position: relative;
-    margin-right: 20px;
-    margin-top: -200px;
-    position: relative;
-    z-index: 3;
-    margin-left: 24%;
-    background-image: url(../img/IMG_3177_1_-removebg-preview\ 1\(1\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-.accueil p
+    height: auto;
+    border-radius: 10px;
+}gi
+.mes-contact
 {
-    font-size: 24px;
-    font-weight: bold;
+    color: #55B3A6;
 }
-.accueil .reseau ul li a 
+
+.pied-de-page
+{
+    background-color: #55B3A6;
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-left: -3%;
+}
+.reseau ul li a 
 {
     text-decoration: none;
     display: inline;
     font-size: 14px;
     color: black;
 }
-.accueil .reseau ul
+.reseau ul
 {
     list-style-type: none;
     margin-left: -30px;
-}
-.buton-accueil
-{
-    width: 160px;
-    height: 40px;
-    border-radius: 20px;
-    color: white;
-    border: none;
-    background-color: #55B3A6;
-    font-weight: bold;
-}
-.buton-accueil2
-{
-    background-color: #F13B23;
 }

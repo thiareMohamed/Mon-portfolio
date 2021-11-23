@@ -14,95 +14,68 @@
 
 <body>
 
-<!------------------------ Entete ------------------------>
+<!------------------------ Contact ------------------------>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light mb-4 shadow-sm">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo-thiare.png" alt="">
-                </a>
-                <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navBarPortfolio" aria-controls="navBarPortfolio" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="img/bouton-toggle.svg" alt="" class=" h-100">
-                </button>
-                <div class="collapse navbar-collapse" id="navBarPortfolio">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> 
-                                <span class="accueil">Accueil</span>
+    <footer class="contact container-fluid" id="contact">
+        <h1 class="titre-contact text-center mt-4 mb-4">Contact</h1>  
+        <div class="row">
+            <p class="mes-contact text-center">
+                <img src="img/icone-msg.png" alt=""> thiaremohamed.mt@gmail.com
+            </p>
+            <p class="mes-contact text-center">
+                <img src="img/call.png" alt=""> +221773813060
+            </p>
+        </div> 
+        <h2 class="titre-contact2 titre-contact text-center mt-2 mb-4 pb-4">Me contacter</h2> 
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>
+                    Voulez-vous entrer en contact avec <br>
+                    moi? Remplissez le formulaire pour <br>
+                    m'envoyer un message et j'essaierai de <br>
+                    vous répondre dans les 24 heures!
+                </p>
+            </div>
+            <div class="col-12 mt-4">
+                <form action="#">
+                    <input type="text" name="nom" class="form-input" placeholder="Nom, Prenom">
+                    <input type="text" name="mail" class="form-input" placeholder="Mail">
+                    <input type="number" name="tel" class="form-input" placeholder="Telephone">
+                    <textarea name="" id="" placeholder="Message" cols="30" class="form-input form-msg"  rows="10"></textarea><br>
+                    <input type="submit" class="btn mx-3 mt-3 mb-4 bg-dark text-white" value="Envoyer">
+                </form>
+                <div class="reseau col-12">
+                    <ul class="d-flex justify-content-around mt-4">
+                        <li>
+                            <a href="">
+                                <img src="img/github.png" alt=""> <span>Githup</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#a-propos">
-                                <span> A propos </span>
+                        <li>
+                            <a href="">
+                                <img src="img/twitter.png" alt=""> <span>Twitter</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#formations">
-                                <span> Formations </span>
+                        <li>
+                            <a href="">
+                                <img src="img/linkedin.png" alt=""> <span>Linkedin</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Competences">
-                                <span> Competences </span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">
-                                <span> Contact </span>
+                        <li>
+                            <a href="">
+                                <img src="img/svg.homeIcon.png" alt=""> <span>Discord</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-
-<!------------------------ accueil ------------------------>
-
-    <section class="accueil container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="orange"></div>
-                <div class="jaune"></div>
-                <div class="vert"></div>
-
-                <p class="mx-4 mt-4">
-                    Hey, je suis <br>
-                    Mohamed <strong>THIARE</strong><br>
-                    Developpeur Web et Mobile
-                </p>
-            </div>
-            <div class="reseau col-12">
-                <ul class="d-flex justify-content-around mt-4">
-                    <li>
-                        <a href="">
-                            <img src="img/github.png" alt=""> <span>Githup</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="img/twitter.png" alt=""> <span>Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="img/linkedin.png" alt=""> <span>Linkedin</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="img/svg.homeIcon.png" alt=""> <span>Discord</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="buton-cv p-4 col-12">
-                <button class="btn mx-1 buton-accueil">Telecharger CV</button>
-                <button class="btn mx-1 buton-accueil buton-accueil2">Me contacter</button>
-            </div>
+                <div class="pied-de-page mt-4">
+                    <p class="text-center pt-3">
+                        © 2021 M.THIARE. All rights reserved.
+                    </p>
+                </div>
+            </div> 
         </div>
-    </section>
-</body>
+        
+    </footer>
 
 </html>
