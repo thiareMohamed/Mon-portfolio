@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+*
+{
+    font-family: 'Sen', sans-serif;
+}
+
+/* -------header-------- */
+
+nav
+{
+    position: fixed;
+}
+ul li
+{
+    font-weight: bold;
+}
+ul li a .accueil
+{
+    color: #55B3A6;
+}
+ul li a span:hover
+{
+    color: #55B3A6;
+}
+
+/* ------ accueil------- */
+
+.orange
+{
+    background-color: #F13B23;
+    width: 250px;
+    height: 250px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 2;
+}
+.jaune
+{
+    background-color: #FFDC16;
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -250px;
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+.vert
+{
+    background-color: #55B3A6;
+    width: 220px;
+    height: 280px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 3;
+    margin-left: 24%;
+    background-image: url(../img/IMG_3177_1_-removebg-preview\ 1\(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.accueil p
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.accueil .reseau ul li a 
+{
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    color: black;
+}
+.accueil .reseau ul
+{
+    list-style-type: none;
+    margin-left: -30px;
+}
+.buton-accueil
+{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: #55B3A6;
+    font-weight: bold;
+}
+.buton-accueil2
+{
+    background-color: #F13B23;
+}
