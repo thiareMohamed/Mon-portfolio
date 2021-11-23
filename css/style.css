@@ -4,6 +4,23 @@
     font-family: 'Sen', sans-serif;
 }
 
+/* -------competences-------- */
+.titre-competence
+{
+    color: #55B3A6;
+    font-weight: bold;
+}
+.blog h2
+{
+    color: #55B3A6;
+    border: 3px solid #55B3A6;
+    border-right: 15px solid #55B3A6;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 390px;
+}
+
 /* -------Contact-------- */
 
 .titre-contact
@@ -35,7 +52,7 @@ form
     background-color: #55B3A6;
     height: auto;
     border-radius: 10px;
-}gi
+}
 .mes-contact
 {
     color: #55B3A6;
