@@ -12,10 +12,10 @@
     width: 90%;
     margin-left: 5%;
     border-radius: 10px;
-    height: 190px;
+    height: auto;
     padding-top: 10%;
     font-weight: bold;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.062);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.151);
 }
 .carte-diplome
 {
@@ -23,8 +23,8 @@
     width: 90%;
     margin-left: 5%;
     border-radius: 10px;
-    height: 160px;
+    height: auto;
     padding-top: 1%;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.062);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.151);
     font-weight: bold;
 }
