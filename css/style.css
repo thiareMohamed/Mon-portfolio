@@ -27,15 +27,15 @@ ul li a span:hover
 }
 .titre-global
 {
-    padding-top: 10%;
+    padding-top: 2%;
 }
 /* ------ accueil------- */
 
 .photo-portfolio
 {
     width: 100%;
-    height: 100%;
-    margin-top: 10%;
+    height: auto;
+    margin-top: 5%;
 }
 
 .orange
@@ -154,10 +154,11 @@ ul li a span:hover
 {
     border: #55B3A6 solid 3px;
     width: 90%;
-    margin-left: 5%;
+    margin: auto;
     border-radius: 10px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     font-weight: bold;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.151);
 }
@@ -165,10 +166,11 @@ ul li a span:hover
 {
     border: #55B3A6 solid 3px;
     width: 90%;
-    margin-left: 5%;
+    margin: auto;
     border-radius: 10px;
     height: auto;
     padding-top: 1%;
+    padding-bottom: 1%;;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.151);
     font-weight: bold;
 }
@@ -232,11 +234,11 @@ form
 {
     background-color: #55B3A6;
     height: 60px;
-    width: 100%;
+    /* width: 100%; */
     color: white;
     font-weight: bold;
-    position: absolute;
-    margin-left: -3%;
+    /* position: absolute;
+    margin-left: -3%; */
 }
 .reseau ul li a 
 {
@@ -249,4 +251,93 @@ form
 {
     list-style-type: none;
     margin-left: -30px;
+}
+
+
+
+
+
+
+/* Media query */
+
+@media screen and (min-width: 900px) {
+    .global-titre
+    {
+        font-size: 50px;
+    }
+    .reseau
+    {
+        margin-top: 4%;
+    }
+    .reseau p
+    {
+        font-size: 50px;
+        color: black;
+    }
+    .reseau div ul li a span
+    {
+        font-size: 20px;
+        color: black;
+    }
+    .reseau div ul li a img
+    {
+        width: 28px;
+        height: 23px;
+    }
+    .reseau-accueil
+    {
+        margin-top: 15%;
+    }
+    .buton-accueil
+    {
+        width: 300px;
+        height: 70px;
+        border-radius: 100px;
+        align-self: start;
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    .text-a-propos
+    {
+        border-top: none;
+        border-left: #55B3A6 5px solid;
+        padding-left: 20px;
+        margin-bottom: 10%;
+    }
+    .cadre
+    {
+        height: 100%;
+        width: 60%;
+    }
+    .carte-formation
+    {
+        width: 40%;
+    }
+    .carte-diplome
+    {
+        width: 40%;
+    }
+    .contact
+    {
+        background-image: url('../img/bg-footer.png');
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+    }
+    .titre-contact2
+    {
+        width: 35%;
+        padding-top: 8%;
+        padding-bottom: 3%;
+        margin-left: 32%;
+
+    }
+    form
+    {
+        width: 60%;
+    }
+    p
+    {
+        font-size: 555px
+        color black;
+    }
 }
