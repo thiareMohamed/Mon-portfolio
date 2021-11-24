@@ -6,16 +6,16 @@
 
 /* -------header-------- */
 
-header
+nav
 {
    z-index: 100;
    background-color: white;
    width: 100%;
-   position: fixed;
 }
 ul li
 {
     font-weight: bold;
+    padding-left: 5%;
 }
 ul li a .accueil
 {
@@ -27,7 +27,7 @@ ul li a span:hover
 }
 .titre-global
 {
-    margin-top: 30%;
+    padding-top: 10%;
 }
 /* ------ accueil------- */
 
