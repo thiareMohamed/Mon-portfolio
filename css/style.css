@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+*
+{
+    font-family: 'Sen', sans-serif;
+}
+
+/* -------Contact-------- */
+
+.titre-contact
+{
+    font-weight: bold;
+    color: #55B3A6;
+}
+.titre-contact2
+{
+    border-bottom: 5px solid #55B3A6;
+}
+.form-input
+{
+    width: 90%;
+    height: 40px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 4%;
+    border-radius: 10px;
+    border: 2px solid #55B3A6;
+    padding-left: 10px;
+}
+.form-msg
+{
+    height: 150px;
+}
+form
+{
+    background-color: #55B3A6;
+    height: auto;
+    border-radius: 10px;
+}gi
+.mes-contact
+{
+    color: #55B3A6;
+}
+
+.pied-de-page
+{
+    background-color: #55B3A6;
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-left: -3%;
+}
+.reseau ul li a 
+{
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    color: black;
+}
+.reseau ul
+{
+    list-style-type: none;
+    margin-left: -30px;
+}
